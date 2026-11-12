@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --color-rich-black: #171717;
+  --color-warm-ivory: #F7F5F0;
+  --color-soft-beige: #E8DFD2;
+  --color-charcoal: #454545;
+  --color-muted-gold: #B89B65;
+}
+
+.font-editorial {
+  font-family: "Bodoni Moda", "Playfair Display", Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Luxury Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CBBF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89B65;
+}
+
+/* Smooth transitions */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MAISON VÉRITÉ - Modern Luxury Fashion",
+  "description": "Editorial fashion house offering architectural tailoring, fine knitwear, and timeless wardrobe investments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

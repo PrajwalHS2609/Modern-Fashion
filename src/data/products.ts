@@ -1,10 +1,11 @@
 import { Product } from '../types';
+import HERO_IMAGE from '../assets/images/hero_fashion_editorial_1794387299849.jpg';
+import CAMPAIGN_IMAGE from '../assets/images/campaign_season_lookbook_1794387302873.jpg';
+import BLAZER_IMAGE from '../assets/images/product_tailored_blazer_1794387302774.jpg';
+import CASHMERE_IMAGE from '../assets/images/product_cashmere_knit_1794387303122.jpg';
+import LEATHER_IMAGE from '../assets/images/category_accessories_leather_1794387302858.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_fashion_editorial_1794387299849.jpg';
-export const CAMPAIGN_IMAGE = '/src/assets/images/campaign_season_lookbook_1794387302873.jpg';
-export const BLAZER_IMAGE = '/src/assets/images/product_tailored_blazer_1794387302774.jpg';
-export const CASHMERE_IMAGE = '/src/assets/images/product_cashmere_knit_1794387303122.jpg';
-export const LEATHER_IMAGE = '/src/assets/images/category_accessories_leather_1794387302858.jpg';
+export { HERO_IMAGE, CAMPAIGN_IMAGE, BLAZER_IMAGE, CASHMERE_IMAGE, LEATHER_IMAGE };
 
 export const PRODUCTS: Product[] = [
   {

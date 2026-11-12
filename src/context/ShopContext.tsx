@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Product, CartItem, Order, UserAddress, Currency, ViewMode, ProductColor } from '../types';
-import { PRODUCTS } from '../data/products';
+import { PRODUCTS, BLAZER_IMAGE } from '../data/products';
 
 interface Toast {
   id: string;
@@ -122,7 +122,7 @@ const INITIAL_ORDERS: Order[] = [
       {
         productId: 'mv-001',
         productName: 'The Sovereign Double-Breasted Wool Blazer',
-        productImage: '/src/assets/images/product_tailored_blazer_1794387302774.jpg',
+        productImage: BLAZER_IMAGE,
         selectedColor: 'Midnight Charcoal',
         selectedSize: '38 FR',
         price: 680,
